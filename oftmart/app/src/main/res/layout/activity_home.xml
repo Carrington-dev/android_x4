@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tool_bar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="#78f276"
+        app:title="Oftmart"
+        app:titleTextColor="#000"
+        app:titleMarginStart="40dp"
+        app:logo="@drawable/ic_menu"/>
+
+
+</RelativeLayout>
